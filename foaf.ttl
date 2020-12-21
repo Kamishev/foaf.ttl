@@ -1,1 +1,17 @@
-s
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <#me> ;
+    foaf:primaryTopic <#me> .
+
+<#me> a foaf:Person ;
+    foaf:family_name "Kamishev" ;
+    foaf:givenname "Jordan" ;
+    foaf:mbox_sha1sum "3fad2178ba77f01b5ac74990afc79d130535d33b" ;
+    foaf:name "Jordan Kamishev" ;
+    foaf:nick "kamish" ;
+    foaf:phone <tel:071389864> ;
+    foaf:schoolHomepage <ФИНКИ> .
