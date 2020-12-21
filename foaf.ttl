@@ -1,5 +1,6 @@
 @prefix admin: <http://webns.net/mvcb/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <> a foaf:PersonalProfileDocument ;
     admin:errorReportsTo <mailto:leigh@ldodds.com> ;
@@ -10,6 +11,10 @@
 <#me> a foaf:Person ;
     foaf:family_name "Kamishev" ;
     foaf:givenname "Jordan" ;
+    foaf:knows [ a foaf:Person ;
+            rdfs:seeAlso <https://github.com/bjanevski/FOAF-Profile/blob/main/foaf.ttl> ;
+            foaf:mbox_sha1sum "ab92e6942661ca9ff500bd7b21ed79750f050be8" ;
+            foaf:name "Bojan Janevski" ] ;
     foaf:mbox_sha1sum "3fad2178ba77f01b5ac74990afc79d130535d33b" ;
     foaf:name "Jordan Kamishev" ;
     foaf:nick "kamish" ;
